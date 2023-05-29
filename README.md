@@ -31,7 +31,7 @@ This project is licensed under the terms of the MIT license.
 
 ## Deployed
 
-https://6474eea5ce74733e2f3ac700--taylor-react-portfolio.netlify.app/work
+https://taylor-react-portfolio.netlify.app/
 
 ## Images
 
