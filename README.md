@@ -13,7 +13,8 @@ The purpose of this project is to provide information about myself as a Web Deve
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Images](#Images)
+- [Deployed](#deployed)
+- [Images](#images)
 - [Questions](#questions)
 
 ## Installation
@@ -27,6 +28,10 @@ Future employers will be able to access various parts of my portfolio to view pr
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Deployed
+
+https://6474eea5ce74733e2f3ac700--taylor-react-portfolio.netlify.app/work
 
 ## Images
 
