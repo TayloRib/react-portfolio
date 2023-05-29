@@ -268,3 +268,112 @@ footer {
     padding: 0px;
     background-color: var(--background);
 }
+
+@media screen and (min-width: 990px) {
+    .mobile {
+        display: none;
+    }
+  }
+
+@media screen and (max-width: 989px) and (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+    
+    * {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    u {
+        font-size: large;
+    }
+
+  }
+
+  
+
+@media screen and (max-width: 768px) {
+
+    *{
+        font-size: 14px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+
+    h1 {
+    font-size: 20px;
+    }
+
+    .ballerina {
+        height: 100px;
+    }
+
+    .subtitle {
+        position: absolute;
+        top: 60px;
+        font-size: 1em;
+        right: 16px;
+        color: #fff;
+        padding: 5px 20px;
+        background-color: var(--link);
+    }
+
+    td.name {
+        min-width: 70px;
+        max-width: 70px;
+    }
+
+    .table1 {
+        margin-top: 130px;
+        max-width: 95%;
+    }
+
+    .table2 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .table4 {
+        margin-top: 20px;
+    }
+
+    .margin {
+        max-width: 15px;
+        min-width: 15px
+    }
+
+    .subtitle2 {
+        margin-top: -55px;
+        padding: 1px 10px;
+        line-height: .2;
+        margin-bottom: 25px;
+    }
+
+    .twopic, .twopic2 {
+        opacity: 1;
+    }
+
+    .height {
+        height: 20px;
+    }
+
+    u {
+        font-size: large;
+    }
+
+
+.send {
+    margin-top: 10px;
+    width: 30%;
+}
+  }

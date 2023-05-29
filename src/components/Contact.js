@@ -47,6 +47,7 @@ export default function Contact() {
       };
 
   return (
+    <>
     <div class="desktop">
     <main>
     
@@ -110,7 +111,75 @@ export default function Contact() {
                 </td>
             </tr>
         </table>
+      
+        </main>
+    </div>
+
+        <div class="mobile">
+    <main>
     
+        <header>
+            <h1 class="name">Taylor Orsini</h1>
+        </header>
+    
+        <nav>
+            <Link to="/">Home</Link>
+            <Link to="/work">Works</Link>
+            <Link to="/contact">Contact Me</Link>
+            <Link to="/resume">Resume</Link>
+        </nav>
+    
+        <div class="headerbox">
+            <img class="ballerina" src={ballerina} alt="Edgar Degas painting, Ballerinas in Pink"></img>
+            <h2 class="subtitle">React Porfolio</h2>
+        </div>
+    
+        <table class="table1">
+        <tr class="help">
+            <td class="name" id="work">
+                <h1>Contact</h1>
+                <h1>Me</h1>
+            </td>
+            <td class="margin"></td>
+            <td class="bio2"> 
+                    <form class="contactform form">
+                        <label class="label" for="userName">Name:</label>
+                        <input 
+                        value={userName} 
+                        class="name" 
+                        type="text" 
+                        placeholder='Your Name' 
+                        name="userName"
+                        onChange={handleInputChange}>
+                        </input>
+                        <label class="label" for="email">Email Address:</label>
+                        <input 
+                        value={email} 
+                        class="name" 
+                        type="email" 
+                        placeholder='Your Email' 
+                        name="email"
+                        onChange={handleInputChange}>
+                        </input>
+                        <label value={message} class="label" for="message">Leave a Message:</label>
+                        <textarea 
+                        value={message}
+                        class="message" 
+                        name="message" 
+                        placeholder='Cool Portfolio!'
+                        onChange={handleInputChange}>
+                        </textarea>
+                        {errorMessage && (
+                        <p className="error-text">{errorMessage}</p>
+                        )}
+                        <button class="send" type="button" onClick={handleFormSubmit}>Send</button>
+                    </form>
+                    
+                </td>
+            </tr>
+        </table>
+        </main>
+    </div>
         <footer>
         
         <a href='https://github.com/TayloRib' target='_blank' rel="noreferrer"><i class="bi bi-github"></i></a>
@@ -118,7 +187,6 @@ export default function Contact() {
         <i class="bi bi-stack-overflow"></i>
 
         </footer>
-        </main>
-    </div>
+        </>
   );
 }
