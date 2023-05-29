@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.dba900ce.css",
+    "main.js": "/react-portfolio/static/js/main.d0c66040.js",
+    "static/media/Ballerinas_in_Pink.jpg": "/react-portfolio/static/media/Ballerinas_in_Pink.c66f5cfd293ff753ae38.jpg",
+    "static/media/mesoamerican_museum.jpg": "/react-portfolio/static/media/mesoamerican_museum.99b784b670587c7f30ad.jpg",
+    "static/media/The_Orchestra.jpg": "/react-portfolio/static/media/The_Orchestra.7baab9536b264c4c5a4b.jpg",
+    "static/media/pokemon_guide.jpg": "/react-portfolio/static/media/pokemon_guide.8b21b521e493be2f20e0.jpg",
+    "static/media/word_calendar2.png": "/react-portfolio/static/media/word_calendar2.53f7a28ef3bea9e5b3f5.png",
+    "static/media/weather_dashboard.jpg": "/react-portfolio/static/media/weather_dashboard.eb199919462e0d5d4fe3.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.dba900ce.css.map": "/react-portfolio/static/css/main.dba900ce.css.map",
+    "main.d0c66040.js.map": "/react-portfolio/static/js/main.d0c66040.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba900ce.css",
+    "static/js/main.d0c66040.js"
+  ]
+}
