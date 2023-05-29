@@ -35,8 +35,8 @@ export default function Work() {
             <td class="name" id="work"><h1>Work</h1></td>
             <td class="margin"></td>
             <td class="bio2"> 
-            <a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/mesoamerican-museum" alt="the devs mesoamerican museum landing page">
-                <img class="dance" src={meso}></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/mesoamerican-museum">
+                <img class="dance" src={meso} alt="the devs mesoamerican museum landing page"></img></a>
                 <div class="subtitle3">
                     <h3>Mesoamerican Museum</h3>
                     <p><i>May - 2023</i></p>
@@ -49,14 +49,14 @@ export default function Work() {
             <td>
                 <table class="table3">
                     <tr class="help">
-                        <td class="bio2"><a target="_blank" rel="noreferrer" href="https://amman98.github.io/Random-Word-Calendar/" alt="dark mode view of the devs calendar app"><img class="twopic" src={word}></img></a>
+                        <td class="bio2"><a target="_blank" rel="noreferrer" href="https://amman98.github.io/Random-Word-Calendar/"><img class="twopic" src={word} alt="dark mode view of the devs calendar app"></img></a>
                             <div class="subtitle3">
                                 <h3>Word Calendar</h3>
                                 <p><i>April - 2023</i></p>
                             </div>
                         </td>
                         <td class="spacer"></td>
-                        <td><a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/weather-dashboard" alt="homepage of the devs weather app"><img class="twopic2" src={weather}></img></a> 
+                        <td><a target="_blank" rel="noreferrer" href="https://taylorib.github.io/weather-dashboard/"><img class="twopic2" src={weather} alt="homepage of the devs weather app"></img></a> 
                             <div class="subtitle3">
                                 <h3>Weather Dashboard</h3>
                                 <p><i>April - 2023</i></p>
@@ -72,14 +72,14 @@ export default function Work() {
             <td>
                 <table class="table3">
                     <tr class="help">
-                        <td class="bio2"><a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/gen9raidguidejo"><img class="twopic" src={pokemon}></img></a>
+                        <td class="bio2"><a target="_blank" rel="noreferrer" href="https://taylorib.github.io/gen9raidguidejo/"><img class="twopic" src={pokemon} alt="homepage of the devs Pokemon raid app"></img></a>
                             <div class="subtitle3">
                                 <h3>Pokemon Guide</h3>
                                 <p><i>February - 2023</i></p>
                             </div>
                         </td>
                         <td class="spacer"></td>
-                        <td class="bio2"><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Orchestra_at_the_Opera_-_Google_Art_Project_2.jpg"><img class="twopic" src={orchestra}></img></a>
+                        <td class="bio2"><a target="_blank" rel="noreferrer" href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Orchestra_at_the_Opera_-_Google_Art_Project_2.jpg"><img class="twopic" src={orchestra} alt="edgar degas work the orchestra at the opera"></img></a>
                             <div class="subtitle3">
                                 <h3>Opera and Orchestra</h3>
                                 <p><i>Degas - 1870</i></p>
@@ -118,8 +118,8 @@ export default function Work() {
                 <td class="name" id="work2"><h1>Work</h1></td>
                 <td class="margin"></td>
                 <td class="bio2"> 
-                <a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/mesoamerican-museum" alt="the devs mesoamerican museum landing page">
-                    <img class="twopic" src={meso} /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/mesoamerican-museum" >
+                    <img class="twopic" src={meso} alt="the devs mesoamerican museum landing page"/></a>
                     <div class="subtitle2">
                         <h3>Mesoamerican Museum - <i>2023</i></h3>
                     </div>
@@ -134,8 +134,8 @@ export default function Work() {
                 <td class="name" id="work"></td>
                 <td class="margin"></td>
                 <td class="bio2">
-                    <a target="_blank" rel="noreferrer" href="https://amman98.github.io/Random-Word-Calendar/" alt="dark mode view of the devs calendar app">
-                        <img class="twopic" src={word} /></a>
+                    <a target="_blank" rel="noreferrer" href="https://amman98.github.io/Random-Word-Calendar/" >
+                        <img class="twopic" src={word} alt="dark mode view of the devs calendar app"/></a>
                         <div class="subtitle2">
                             <h3>Word Calendar - <i>2023</i></h3>
                     </div>
@@ -149,8 +149,8 @@ export default function Work() {
             <tr>
                 <td class="name"></td>
                 <td class="margin"></td>
-                <td><a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/weather-dashboard" alt="homepage of the devs weather app">
-                    <img class="twopic2" src={weather} /></a> 
+                <td><a target="_blank" rel="noreferrer" href="https://taylorib.github.io/weather-dashboard/">
+                    <img class="twopic2" src={weather} alt="homepage of the devs weather app"/></a> 
                     <div class="subtitle2">
                         <h3>Weather Dashboard - <i>2023</i></h3>
                     </div>
@@ -165,8 +165,8 @@ export default function Work() {
                 <td class="name"></td>
                 <td class="margin"></td>
                 <td class="bio2">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/TayloRib/gen9raidguidejo">
-                        <img class="twopic" src={pokemon} /></a>
+                    <a target="_blank" rel="noreferrer" href="https://taylorib.github.io/gen9raidguidejo/">
+                        <img class="twopic" src={pokemon} alt="homepage of the devs Pokemon raid app"/></a>
                         <div class="subtitle2">
                             <h3>Pokemon Guide - <i>2023</i></h3>
                         </div>
@@ -181,8 +181,8 @@ export default function Work() {
                 <td class="name"></td>
                 <td class="margin"></td>
                 <td class="bio2">
-                    <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Orchestra_at_the_Opera_-_Google_Art_Project_2.jpg">
-                    <img class="twopic2" src={orchestra} /></a>
+                    <a target="_blank" rel="noreferrer" href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Orchestra_at_the_Opera_-_Google_Art_Project_2.jpg">
+                    <img class="twopic2" src={orchestra} alt="edgar degas work the orchestra at the opera"/></a>
                     <div class="subtitle2" >
                         <h3>Opera and Orchestra - <i>2023</i></h3>
                     </div>

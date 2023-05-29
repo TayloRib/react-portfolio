@@ -1,5 +1,4 @@
 import React from "react";
-import { useState,useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Work from './components/Work';

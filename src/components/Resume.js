@@ -32,7 +32,7 @@ export default function Resume() {
             </td>
             <td class="margin"></td>
             <td class="bio2"> 
-                    <h4>Download my <a href='' download='./assets/TaylorsResume.txt'>Resume</a></h4>
+                    <h4>Download my <a href='https://github.com/TayloRib'>Resume</a></h4>
                     <h3>Front End Proficiencies:</h3>
                         <ul>
                             <li>HTML</li>
@@ -86,7 +86,7 @@ export default function Resume() {
             </td>
             <td class="margin"></td>
             <td class="bio2"> 
-                    <h4>Download my <a href='' download='./assets/TaylorsResume.txt'>Resume</a></h4>
+                    <h4>Download my <a href='https://github.com/TayloRib'>Resume</a></h4>
                     <h3>Front End Proficiencies:</h3>
                         <ul>
                             <li>HTML</li>
